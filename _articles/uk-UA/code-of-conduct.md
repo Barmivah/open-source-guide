@@ -1,106 +1,106 @@
 ---
 locale: en-US
-title: Your Code of Conduct
-description: Facilitate healthy and constructive community behavior by adopting and enforcing a code of conduct.
+title: Ваш кодекс честі
+description: Забезпечте здорову й конструктивну поведінку в спільноті, адаптувавши й заохотивши дотримання кодексу честі.
 class: coc
 toc:
-  why-do-i-need-a-code-of-conduct: "Why do I need a code of conduct?"
-  establishing-a-code-of-conduct: "Establishing a code of conduct"
-  deciding-how-youll-enforce-your-code-of-conduct: "Deciding how you’ll enforce your code of conduct"
-  enforcing-your-code-of-conduct: "Enforcing your code of conduct"
+  Навіщо-мені-кодекс-честі: "Навіщо мені кодекс честі?"
+  Затвердження-кодексу-честі: "Затвердження кодексу честі"
+  Вирішуємо-як-вам-забезпечити-дотримання-кодексу-честі: "Вирішуємо як вам забезпечити дотримання кодексу честі"
+  Приводимо-в-дію-свій-кодекс-честі: "Приводимо в дію свій кодекс честі"
 order: 8
 image: /assets/images/cards/coc.png
 ---
 
-## Why do I need a code of conduct?
+## Навіщо мені кодекс честі?
 
-A code of conduct is a document that establishes expectations for behavior for your project's participants. Adopting, and enforcing, a code of conduct can help create a positive social atmosphere for your community.
+Кодекс честі -- це документ, який визначає очікувану поведінку учасників вашого проекту. Адаптація і впровадження кодексу честі може допомогти створити позитивну соціальну атмосферу у вашій спільноті.
 
-Codes of conduct help protect not just your participants, but yourself. If you maintain a project, you may find that unproductive attitudes from other participants can make you feel drained or unhappy about your work over time.
+Кодекс честі допомагає проекту захистити не лише його учасників, а й вас. Якщо ви доглядаєте проект, то можете помітити, що непродуктивне відношення інших учасників може виснажувати вас чи змусити почуватися нещасним у вашій роботі з часом.
 
-A code of conduct empowers you to facilitate healthy, constructive community behavior. Being proactive reduces the likelihood that you, or others, will become fatigued with your project, and helps you take action when someone does something you don't agree with.
+Кодекс честі дає вам змогу забезпечити здорову і конструктивну поведінку спільноти. Проактивність знижує ймовірність того, що ви чи хтось інший стомиться від вашого проекту, а також це допомагає вам вжити заходів, коли хтось робить щось, із чим ви не погоджуєтеся.
 
-## Establishing a code of conduct
+## Затвердження кодексу честі
 
-Try to establish a code of conduct as early as possible: ideally, when you first create your project.
+Намагайтеся затвердити кодекс честі якнайраніше: в ідеалі, щойно ви створили проект.
 
-In addition to communicating your expectations, a code of conduct describes the following:
+На додачу до відповідності вашим очікуванням, кодекс честі описує наступне:
 
-* Where the code of conduct takes effect _(only on issues and pull requests, or community activities like events?)_
-* Whom the code of conduct applies to _(community members and maintainers, but what about sponsors?)_
-* What happens if someone violates the code of conduct
-* How someone can report violations
+* Де діє кодекс честі _(лише завдання і запита на злиття, чи активності спільноти, як-от заходи?)_
+* Кого стосується кодекс честі _(учасники спільноти та супровідники, але як щодо спонсорів?)_
+* Що трапиться, якщо хтось порушить кодекс честі
+* Як можна повідомити про порушення
 
-Wherever you can, use prior art. The [Contributor Covenant](http://contributor-covenant.org/) is a drop-in code of conduct that is used by over 40,000 open source projects, including Kubernetes, Rails, and Swift.
+Коли є така можливість, користуйтеся існуючими напрацюваннями. [Угода учасника](http://contributor-covenant.org/) -- це готовий до використання кодекс честі, який використовується понад 40,000 open source проектами, включно з Kubernetes, Rails та Swift.
 
-The [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Citizen Code of Conduct](http://citizencodeofconduct.org/) are also two good code of conduct examples.
+[Кодекс честі Django](https://www.djangoproject.com/conduct/) і [кодекс честі міщанина](http://citizencodeofconduct.org/) також два хороших взірці кодексу честі.
 
-Place a CODE_OF_CONDUCT file in your project's root directory, and link to it from your README, so it's visible to your community.
+Розмістіть файл CODE_OF_CONDUCT у кореневій теці свого проекту та посилання на нього зі свого README, щоб його було видно вашій спільноті.
 
-## Deciding how you'll enforce your code of conduct
+## Вирішуємо як вам забезпечити дотримання кодексу честі
 
 <aside markdown="1" class="pquote">
-  A code of conduct that isn't (or can't be) enforced is worse than no code of conduct at all: it sends the message that the values in the code of conduct aren't actually important or respected in your community.
+  Кодекс честі, який не є (чи не може бути) приведеним в дію -- це навіть гірше, ніж узагалі відсутній кодекс честі: він повідомляє, що цінності цього кодексу честі насправді неважливі і їх не поважають у вашій спільноті.
   <p markdown="1" class="pquote-credit">
 — [Ada Initiative](https://adainitiative.org/2014/02/18/howto-design-a-code-of-conduct-for-your-community/)
   </p>
 </aside>
 
-You should explain how your code of conduct will be enforced **_before_** a violation occurs. There are several reasons to do so:
+Вам слід пояснити яким чином кодекс честі буде гарантований, **_до того_** як порушення трапиться. Є кілька причин щоб вчинити саме так:
 
-* It demonstrates that you are serious about taking action when it's needed.
+* Це демонструє, що ви серйозно маєте намір вжити заходів, коли небхідно.
 
-* Your community will feel more reassured that complaints actually get reviewed.
+* Ваша спільнота почуватиметься упевненіше, що скарги справді розглядаються.
 
-* You'll reassure your community that the review process is fair and transparent, should they ever find themselves investigated for a violation.
+* Ви переконаєте свою спільноту, що розгляд скарг завжди чесний і прозорий, якщо вони стануть об'єктом розслідування порушення.
 
-You should give people a private way (such as an email address) to report a code of conduct violation and explain who receives that report. It could be a maintainer, a group of maintainers, or a code of conduct working group.
+Ви маєте забезпечити людям можливість приватно (на кшталт електронної адреси) повідомляти про порушення кодексу честі і пояснювати хто одержує це повідомлення. Це може бути супровідник, група супровідників чи робоча група кодексу честі.
 
-Don't forget that someone might want to report a violation about a person who receives those reports. In this case, give them an option to report violations to someone else. For example, @ctb and @mr-c [explain on their project](https://github.com/dib-lab/khmer/blob/master/CODE_OF_CONDUCT.rst), [khmer](https://github.com/dib-lab/khmer):
+Слід пам'ятати, що хтось може захотіти повідомити про порушення людиною, яка отримує ці скарги. У такому разі, забезпечте можливість повідомляти про порушення ще комусь. Наприклад, @ctb і @mr-c [пояснюють у своєму проекті](https://github.com/dib-lab/khmer/blob/master/CODE_OF_CONDUCT.rst) [khmer](https://github.com/dib-lab/khmer):
 
-> Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by emailing **khmer-project@idyll.org** which only goes to C. Titus Brown and Michael R. Crusoe. To report an issue involving either of them please email **Judi Brown Clarke, Ph.D.** the Diversity Director at the BEACON Center for the Study of Evolution in Action, an NSF Center for Science and Technology.*
+> Про випадки образливої, настирливої чи яким-небудь іншим чином неприйнятної поведінки повідомляйте електронним листом на адресу **khmer-project@idyll.org**, який потрапляє лише до С. Тітуса Брауна та Майкла Р. Крусо. Щоб повідомити про проблему з участю когось із них, будь ласка, надішліть електронного листа **Джуді Кларк, Ph.D.** Diversity Director у Центрі BEACON з вивчення еволюції в дії, Центр NSF Науки і Технологій.*
 
-For inspiration, check out Django's [enforcement manual](https://www.djangoproject.com/conduct/enforcement-manual/) (though you may not need something this comprehensive, depending on the size of your project).
+Для натхнення перегляньте [інструкцію з впровадження](https://www.djangoproject.com/conduct/enforcement-manual/) Django (хоча вам може й не знадобитися щось настільки всеосяжне, залежно від обсягів вашого проекту).
 
-## Enforcing your code of conduct
+## Приводимо в дію свій кодекс честі
 
-Sometimes, despite your best efforts, somebody will do something that violates this code. There are several ways to address negative or harmful behavior when it comes up.
+Інколи, незважаючи на всі зусилля, хтось зробить щось, що порушує ваш кодекс. Є кілька способів розібратися з негативною чи шкідливою поведінкою, коли до цього доходить.
 
-### Gather information about the situation
+### Зберіть інформацію про ситуацію
 
-Treat each community member's voice as important as your own. If you receive a report that someone violated the code of conduct, take it seriously and investigate the matter, even if it does not match your own experience with that person. Doing so signals to your community that you value their perspective and trust their judgment.
+Ставтеся до думок учасників спільноти як до своїх власних. Якщо ви одержали скаргу про те, що хтось порушив кодекс честі, поставтеся до цього серйозно та розслідуйте причину, навіть якщо це не відповідає вашому власному досвіду з цією особою. Вчинивши так, ви надсилаєте сигнал спільноті, що ви цінуєте їх точки зору та довіряєте їхнім судженням.
 
-The community member in question may be a repeat offender who consistently makes others feel uncomfortable, or they may have only said or done something once. Both can be grounds for taking action, depending on context.
+Член громади, про якого йдеться, може бути частим порушником, який постійно змушує інших почуватися некомфортно, або він міг сказати чи зробити щось лише раз. Обидва випадки можуть бути підставою для вжиття заходів, залежно від контексту.
 
-Before you respond, give yourself time to understand what happened. Read through the person's past comments and conversations to better understand who they are and why they might have acted in such a way. Try to gather perspectives other than your own about this person and their behavior.
+Перед тим, як відповідати, дайте собі час, щоб зрозуміти що трапилося. Перечитайте останні коментарі та розмови цієї особи, щоб краще зрозуміти ким вони є і чому могли поводитися таким чином. Спробуйте зібрати різні точки зору щодо цієї особи та її поведінки, які відрізняються від вашої особистої.
 
 <aside markdown="1" class="pquote">
-  Don’t get pulled into an argument. Don’t get sidetracked into dealing with someone else’s behavior before you’ve finished dealing with the matter at hand. Focus on what you need.
+  Не втягуйте себе у суперечки. Не відволікайтеся на розбір чиєїсь іншої поведінки, доки не владнаєте поточну скаргу. Зосередьтеся на тому, що вам потрібно. 
   <p markdown="1" class="pquote-credit">
-— Stephanie Zvan, ["So You've Got Yourself a Policy. Now What?"](https://the-orbit.net/almostdiamonds/2014/04/10/so-youve-got-yourself-a-policy-now-what/)
+— Стефані Зван (Stephanie Zvan), ["Тож, у вас тепер є правила поведінки. Що тепер?"](https://the-orbit.net/almostdiamonds/2014/04/10/so-youve-got-yourself-a-policy-now-what/)
   </p>
 </aside>
 
-### Take appropriate action
+### Зробіть те, що необхідно
 
-After gathering and processing sufficient information, you'll need to decide what to do. As you consider your next steps, remember that your goal as a moderator is to foster a safe, respectful, and collaborative environment. Consider not only how to deal with the situation in question, but how your response will affect the rest of your community's behavior and expectations moving forward.
+Після збору і опрацювання необхідної інформації вам треба буде вирішити що робити. Обмірковуючи свої подальші кроки, пам'ятайте, що ваша мета як модератора -- сприяти безпечному, шанобливому та сповненому співпраці середовищу. Візьміть до уваги не лише як розібратися із ситуацією, яка трапилася, а і те, як ваша відповідь вплине на поведінку решти вашої спільноти та очікування подальшого розвитку.
 
-When somebody reports a code of conduct violation, it is your, not their, job to handle it. Sometimes, the reporter is disclosing information at great risk to their career, reputation, or physical safety. Forcing them to confront their harasser could put the reporter in a compromising position. You should handle direct communication with the person in question, unless the reporter explicitly requests otherwise.
+Коли хтось повідомляє про порушення кодексу честі, це ваша, а не їхня, робота владнати це. Інколи, автор скарги розкриває інформацію дуже ризикуючи своєю кар'єрою, репутацією чи фізичною безпекою. Змушення його протистояти своєму дратівнику може поставити його у незручне становище. Вам слід напряму звертутися до особи, на яку скаржаться, якщо автор скарги не попросив зворотнього.
 
-There are a few ways you might respond to a code of conduct violation:
+Є кілька способів відреагувати на порушення кодексу честі:
 
-* **Give the person in question a public warning** and explain how their behavior negatively impacted others, preferably in the channel where it occurred. Where possible, public communication conveys to the rest of the community that you take the code of conduct seriously. Be kind, but firm in your communication.
+* **Зробити особі, про яку йдеться, публічне попередження** і пояснити яким чином її поведінка негативно впливає на інших, найкраще у каналі, де це сталося. Коли можливо, публічна комунікація показує решті спільноти, що ви ставитеся до кодексу честі серйозно. Будьте доброзичливим, але твердим у такій комунікації.
 
-* **Privately reach out to the person** in question to explain how their behavior negatively impacted others. You may want to use a private communication channel if the situation involves sensitive personal information. If you communicate with someone privately, it's a good idea to CC those who first reported the situation, so they know you took action. Ask the reporting person for consent before CCing them.
+* **Приватно дістаньте особу**, про яку йде мова, щоб пояснити як її поведінка негативно вплинула на інших. Ви можете скористатися приватним каналом спілкування, якщо ситуація включає конфіденційну особисту інформацію. Якщо ви комунікуєте з кимось особисто, то хорошою практикою є додавати в копію того, хто першим повідомив про ситуацію, щоб вони знали, що ви вжили заходів. Спитайте дозвіл у нього перед тим, як додавати в копію.
 
-Sometimes, a resolution cannot be reached. The person in question may become aggressive or hostile when confronted or does not change their behavior. In this situation, you may want to consider taking stronger action. For example:
+Іноді, вирішення неможливо досягти. Особа, про яку йдеться, може стати агресивною чи ворожою у конфронтації, чи не змінює своєї поведінки. У такому разі, можна вжити суворіших заходів. Наприклад:
 
-* **Suspend the person** in question from the project, enforced through a temporary ban on participating in any aspect of the project
+* **Тимчасово заблокувати особу** із запиту у проекті, виконується через тимчасове відсторонення від участі в усіх аспектах проекту
 
-* **Permanently ban** the person from the project
+* **Назавжди відсторонити** особу від проекту
 
-Banning members should not be taken lightly and represents a permanent and irreconcilable difference of perspectives. You should only take these measures when it is clear that a resolution cannot be reached.
+Блокування учасників не здійснюють легковажно і воно представляє тверду й непримиренну розбіжність точок зору. Вам варто вживати таких заходів лише коли очевидно, що вирішення неможливо досягти.
 
-## Encourage the behavior you want to see in the world 🌎
+## Заохочуйте поведінку, яку вам би хотілося бачити в світі 🌎
 
-When a project seems hostile or unwelcoming, even if it's just one person whose behavior is tolerated by others, you risk losing many more contributors, some of whom you may never even meet. It's not always easy to adopt or enforce a code of conduct, but fostering a welcoming environment will help your community grow.
+Якщо проект виглядає вороже й неприязно, навіть якщо в ньому є лише одна людина, поведінку якої терплять інші, ви ризикуєте втратити ще більше учасників, декого з яких ви можете навіть не зустріти. Не завжди просто адаптувати чи впровадити кодекс честі, але сприяння привітному середовищу допоможе вашій спільноті зростати.
